@@ -8,3 +8,6 @@
 fetlife.com##:xpath(//article[.//a[contains(@href,"://fetlife.com/ads/")]])
 fetlife.com/home##.pt5.pl3-l.db-xl.dn.tl.flex-none
 
+! 2022-01-30 https://www.nydailynews.com
+! Side video Ad
+www.nydailynews.com##.s2nFrameHost
