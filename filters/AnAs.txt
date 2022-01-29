@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Description: random rules to clean up some stuff, see the README for things that you might not expect to happen.
 ! Homepage: https://github.com/LakesideMiners/uBlockFilters
-
+! To Use, add https://github.com/LakesideMiners/uBlockFilters/blob/master/filters/AnAs.txt as a filter
 ! 2022-01-30 https://fetlife.com
 ! Blocks the ads on fetlife on the right side bar on all pages and removes the rigth sidebar(only shows the quick upload email so it can be nuked as I will never use it)
 fetlife.com##:xpath(//article[.//a[contains(@href,"://fetlife.com/ads/")]])
