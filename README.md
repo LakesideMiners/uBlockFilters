@@ -1,4 +1,4 @@
 # uBlockFilters
 
 AnA
-add https://github.com/LakesideMiners/uBlockFilters/blob/master/filters/AnAs.txt to your filters list
+add https://raw.githubusercontent.com/LakesideMiners/uBlockFilters/master/filters/AnAs.txt to your filters list
