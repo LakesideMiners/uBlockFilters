@@ -3,11 +3,21 @@
 ! Description: random rules to clean up some stuff, see the README for things that you might not expect to happen.
 ! Homepage: https://github.com/LakesideMiners/uBlockFilters
 ! To Use, add https://raw.githubusercontent.com/LakesideMiners/uBlockFilters/master/filters/AnAs.txt as a filter
+
+
 ! 2022-01-30 https://fetlife.com
-! Blocks the ads on fetlife on the right side bar on all pages and removes the rigth sidebar(only shows the quick upload email so it can be nuked as I will never use it)
+
+! Blocks the ads on fetlife.
+! Block the ad images themselfs
+||fetlife.com/media
+! Remove the text underneath them, dosnt BLOCK the text, but removes it
 fetlife.com##:xpath(//article[.//a[contains(@href,"://fetlife.com/ads/")]])
-fetlife.com/home##.pt5.pl3-l.db-xl.dn.tl.flex-none
+fetlife.com##.pt3.pt4-ns
+
+! Remove the bar where the ads used to be so we can reclaim the space
+fetlife.com##.pt5.pl3-l.db-l.dn.flex-none
 
 ! 2022-01-30 https://www.nydailynews.com
 ! Side video Ad
 www.nydailynews.com##.s2nFrameHost
+
