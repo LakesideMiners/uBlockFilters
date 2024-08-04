@@ -21,3 +21,5 @@ fetlife.com##.pt5.pl3-l.db-l.dn.flex-none
 ! Side video Ad
 www.nydailynews.com##.s2nFrameHost
 
+! Aug 4, 2024 https://squidboards.com Removes the "It appears that you are using adblock" message
+squidboards.com##.noticeContainer>div.head:has-text(/It appears that you are using ad block/):nth-ancestor(2)
